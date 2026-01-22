@@ -78,6 +78,16 @@ export default function Login() {
               ¿No tienes cuenta? Regístrate
             </Link>
           </div>
+
+          <div className="text-center mt-2">
+            <Link 
+              href="/forgot-password" 
+              className="font-medium text-blue-600 hover:text-blue-500 text-sm"
+            >
+              ¿Olvidaste tu contraseña?
+            </Link>
+          </div>
+
         </form>
       </div>
     </div>
